@@ -11,12 +11,19 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-            <div class="container-fluid">
+        <div class="container-fluid" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-expand-lg">
+            <div class="row">
+                <div class="col-1">
                 <a class="navbar-brand" href="#">Projeto</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                </div>
+                
+                <div class="col-3">
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
@@ -29,30 +36,40 @@
                             <a class="nav-link disabled">Disabled</a>
                         </li>
                     </ul>
+                </div>
+                </div>
+
+                <div class="col-7">
+
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                <ul class="nav nav-pills"> 
-                    <li class="nav-item dropdown" style="padding-left: 860px;">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+
+                </div>
+
+                <div class="col-1">
+
+    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>    
+    </ul>
+
+                </div>
+
             </div>
           </nav>
+        </div>
     </header>
     <main>
         <div class="row">
-            <div class="col-2">
-                <nav id="navbar-example3" class="navbar bg-light flex-column align-items-start p-3">
+            <div class="col-2 container-fluid bg-light">
+                <nav id="navbar-example3" class="navbar flex-column align-items-start p-3">
                     <nav class="nav nav-pills flex-column">
                       <a class="nav-link" href="#item-1">Item 1</a>
                       <nav class="nav nav-pills flex-column">
@@ -71,7 +88,7 @@
                 <div class="col-7">
                     <div class="fixed right" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
                     <div id="item-1">
-                        <h4>Item 1</h4>
+                        <h5>Item 1</h5>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -84,7 +101,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-1-1">
-                        <h5>Item 1-1</h5>
+                        <h6>Item 1-1</h6>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -97,7 +114,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-1-2">
-                        <h5>Item 1-2</h5>
+                        <h6>Item 1-2</h6>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -110,7 +127,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-2">
-                        <h4>Item 2</h4>
+                        <h5>Item 2</h5>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -123,7 +140,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-3">
-                        <h4>Item 3</h4>
+                        <h5>Item 3</h5>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -136,7 +153,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-3-1">
-                        <h5>Item 3-1</h5>
+                        <h6>Item 3-1</h6>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -149,7 +166,7 @@
                             et malesuada fames ac turpis egestas. Proin et ligula in arcu auctor feugiat id et urna.</p>
                     </div>
                     <div id="item-3-2">
-                        <h5>Item 3-2</h5>
+                        <h6>Item 3-2</h6>
                             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue porta rutrum. Etiam aliquam ultricies lorem,
                             tincidunt finibus dolor ultrices vel. Vestibulum posuere vestibulum ligula, pellentesque elementum risus porttitor vel.
                             Nam ac orci tristique, finibus ex non, consectetur elit. Nunc sit amet placerat nisl. Vestibulum iaculis vel tellus in vestibulum.
@@ -164,28 +181,72 @@
                 </div> <!-- #EOF row B-->
                 </div>
                 
-            <div class="col-3 fixed top">
-                <nav id="navbar-example3" class="navbar bg-light flex-column align-items-start p-3">
+            <div class="col-3 container-fluid bg-light fixed top">
+
+                <h4 name>Pages you might like</h4>
+                <nav id="navbar-example3" class="navbar flex-column align-items-start p-3">
                     <nav class="nav nav-pills flex-column">
-                      <a class="nav-link" href="#item-1">Item 1</a>
+                      <a class="nav-link" href="#">Link 1</a>
                       <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-1-1">Item 1-1</a>
-                        <a class="nav-link" href="#item-1-2">Item 1-2</a>
+                        <a class="nav-link" href="#">Link 2</a>
+                        <a class="nav-link" href="#">Link 3</a>
                       </nav>
-                      <a class="nav-link" href="#item-2">Item 2</a>
-                      <a class="nav-link" href="#item-3">Item 3</a>
+                      <a class="nav-link" href="#">Link 4</a>
+                      <a class="nav-link" href="#">Link 5</a>
                       <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-3-1">Item 3-1</a>
-                        <a class="nav-link" href="#item-3-2">Item 3-2</a>
+                        <a class="nav-link" href="#">Link 6</a>
+                        <a class="nav-link" href="#">Link 7</a>
                       </nav>
                     </nav>
-                  </nav>
+                </nav>
+
+                <h4 name>Advertising</h4>
+                <img src="img/ad.png" class="center">
             </div> <!--- EOF row C -->
         </div>  <!-- #EOF row -->
         </div>
     </main>
     <footer>
+        <div class="row container-fluid bg-secondary">
+            <div class="col-3">
+                <div class="container-fluid m-3">
+                    <div class="card" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                        Card footer
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-6">
+                <div class="card m-3">
+                    <div class="card-header">
+                    Featured
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card m-3" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
     </footer>
 </body>
 </html>
